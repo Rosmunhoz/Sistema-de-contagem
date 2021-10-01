@@ -1,0 +1,17 @@
+dir
+echo "# Sistema-de-contagem" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Rosmunhoz/Sistema-de-contagem.git
+git push -u origin main
+git status
+git add .
+git status
+git add .
+doskey /y >meusComandos.txt
+git status
+git add .
+git status
+doskey /h >meusComandos.txt
